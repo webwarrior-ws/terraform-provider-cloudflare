@@ -130,10 +130,10 @@ func (r *DNSRecordResource) Update(ctx context.Context, req resource.UpdateReque
 	}
 	res := new(http.Response)
 	env := DNSRecordResultEnvelope{*data}
-	_, err = r.client.DNS.Records.Update(
+	_, err = r.client.DNS.Records.Edit(
 		ctx,
 		data.ID.ValueString(),
-		dns.RecordUpdateParams{
+		dns.RecordEditParams{
 			ZoneID: cloudflare.F(data.ZoneID.ValueString()),
 		},
 		option.WithRequestBody("application/json", dataBytes),
