@@ -4,7 +4,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/cloudflare/terraform-provider-cloudflare/cmd/migrate/ast"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/cmd/migrate/ast"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 	"github.com/hashicorp/hcl/v2/hclwrite"
 	"github.com/tidwall/gjson"

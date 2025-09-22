@@ -6,8 +6,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/services/snippets"
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/test_helpers"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/services/snippets"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/test_helpers"
 )
 
 func TestSnippetsListDataSourceModelSchemaParity(t *testing.T) {

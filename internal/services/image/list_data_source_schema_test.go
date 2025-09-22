@@ -6,8 +6,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/services/image"
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/test_helpers"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/services/image"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/test_helpers"
 )
 
 func TestImagesDataSourceModelSchemaParity(t *testing.T) {

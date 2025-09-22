@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/customfield"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/customfield"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 )
 

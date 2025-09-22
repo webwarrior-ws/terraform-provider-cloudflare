@@ -11,9 +11,9 @@ import (
 	"github.com/hashicorp/terraform-plugin-testing/statecheck"
 	"github.com/hashicorp/terraform-plugin-testing/tfjsonpath"
 
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/acctest"
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/consts"
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/utils"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/acctest"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/consts"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/utils"
 )
 
 /* Migration tests don't include every possible permutation, but do cover:

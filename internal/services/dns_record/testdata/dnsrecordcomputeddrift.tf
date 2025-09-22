@@ -1,5 +1,5 @@
 # Test configuration to verify computed fields don't cause drift
-# This tests the issue from https://github.com/cloudflare/terraform-provider-cloudflare/issues/5517
+# This tests the issue from https://github.com/webwarrior-ws/terraform-provider-cloudflare/issues/5517
 
 resource "cloudflare_dns_record" "%[1]s_minimal" {
   zone_id = "%[2]s"

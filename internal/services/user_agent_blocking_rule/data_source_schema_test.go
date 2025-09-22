@@ -6,8 +6,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/services/user_agent_blocking_rule"
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/test_helpers"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/services/user_agent_blocking_rule"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/test_helpers"
 )
 
 func TestUserAgentBlockingRuleDataSourceModelSchemaParity(t *testing.T) {

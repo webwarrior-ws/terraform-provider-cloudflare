@@ -6,8 +6,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/services/stream_live_input"
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/test_helpers"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/services/stream_live_input"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/test_helpers"
 )
 
 func TestStreamLiveInputModelSchemaParity(t *testing.T) {

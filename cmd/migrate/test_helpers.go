@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cloudflare/terraform-provider-cloudflare/cmd/migrate/transformations"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/cmd/migrate/transformations"
 	"github.com/google/go-cmp/cmp"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclwrite"

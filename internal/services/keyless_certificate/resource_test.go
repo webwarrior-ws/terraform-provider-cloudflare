@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/acctest"
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/consts"
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/utils"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/acctest"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/consts"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/utils"
 	"github.com/hashicorp/terraform-plugin-log/tflog"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/retry"
 	"github.com/hashicorp/terraform-plugin-testing/helper/resource"

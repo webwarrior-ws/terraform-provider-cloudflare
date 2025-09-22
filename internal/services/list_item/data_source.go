@@ -12,8 +12,8 @@ import (
 	"github.com/cloudflare/cloudflare-go/v6/option"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/apijson"
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/logging"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/apijson"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/logging"
 )
 
 type ListItemDataSource struct {

@@ -2,7 +2,7 @@ package customvalidator_test
 
 import (
 	"context"
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/customvalidator"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/customvalidator"
 	"math/big"
 	"testing"
 

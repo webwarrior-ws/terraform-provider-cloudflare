@@ -10,8 +10,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-testing/statecheck"
 	"github.com/hashicorp/terraform-plugin-testing/tfjsonpath"
 
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/acctest"
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/utils"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/acctest"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/utils"
 )
 
 // TestMigrateCloudflareListFromV4WithIPItems tests migration with IP item blocks

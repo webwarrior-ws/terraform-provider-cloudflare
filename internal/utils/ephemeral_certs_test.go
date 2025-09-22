@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/utils"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/utils"
 	"github.com/stretchr/testify/assert"
 )
 

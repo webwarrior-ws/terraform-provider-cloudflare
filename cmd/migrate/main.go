@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclwrite"
 
-	"github.com/cloudflare/terraform-provider-cloudflare/cmd/migrate/ast"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/cmd/migrate/ast"
 )
 
 func main() {
@@ -94,7 +94,7 @@ func main() {
 		transformerDir := *transformerConfig
 		if transformerDir == "" {
 			// Use default embedded configs from GitHub
-			transformerDir = "https://github.com/cloudflare/terraform-provider-cloudflare/tree/grit-to-go-transformations/cmd/migrate/transformations/config"
+			transformerDir = "https://github.com/webwarrior-ws/terraform-provider-cloudflare/tree/grit-to-go-transformations/cmd/migrate/transformations/config"
 			fmt.Println("Using embedded transformer configs from GitHub")
 		} else {
 			fmt.Printf("Using local transformer configs from: %s\n", transformerDir)

@@ -8,9 +8,9 @@ import (
 
 	"github.com/cloudflare/cloudflare-go/v6"
 	"github.com/cloudflare/cloudflare-go/v6/zones"
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/acctest"
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/consts"
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/utils"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/acctest"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/consts"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/utils"
 	"github.com/hashicorp/terraform-plugin-testing/helper/resource"
 	"github.com/hashicorp/terraform-plugin-testing/knownvalue"
 	"github.com/hashicorp/terraform-plugin-testing/statecheck"
@@ -256,7 +256,7 @@ func TestAccCloudflareZoneSetting_Ciphers(t *testing.T) {
 	})
 }
 
-// Regression test for https://github.com/cloudflare/terraform-provider-cloudflare/issues/5795
+// Regression test for https://github.com/webwarrior-ws/terraform-provider-cloudflare/issues/5795
 // where certain zone settings have inconsistent "editable" values between plan and apply
 func TestAccCloudflareZoneSetting_EditableInconsistency(t *testing.T) {
 	zoneID := os.Getenv("CLOUDFLARE_ZONE_ID")

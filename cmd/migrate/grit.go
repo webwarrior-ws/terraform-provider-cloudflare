@@ -48,10 +48,10 @@ func runGritMigrations(configDir string, stateFile string, patternsDir string, d
 			pattern string
 			target  string
 		}{
-			{"github.com/cloudflare/terraform-provider-cloudflare#cloudflare_terraform_v5", "config"},
-			{"github.com/cloudflare/terraform-provider-cloudflare#cloudflare_terraform_v5_attribute_renames_state", "state"},
-			{"github.com/cloudflare/terraform-provider-cloudflare#cloudflare_terraform_v5_resource_renames_configuration", "config"},
-			{"github.com/cloudflare/terraform-provider-cloudflare#cloudflare_terraform_v5_resource_renames_state", "state"},
+			{"github.com/webwarrior-ws/terraform-provider-cloudflare#cloudflare_terraform_v5", "config"},
+			{"github.com/webwarrior-ws/terraform-provider-cloudflare#cloudflare_terraform_v5_attribute_renames_state", "state"},
+			{"github.com/webwarrior-ws/terraform-provider-cloudflare#cloudflare_terraform_v5_resource_renames_configuration", "config"},
+			{"github.com/webwarrior-ws/terraform-provider-cloudflare#cloudflare_terraform_v5_resource_renames_state", "state"},
 		}
 		fmt.Println("Warning: Using GitHub grit patterns (local patterns not found)")
 	}

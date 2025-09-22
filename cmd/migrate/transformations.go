@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/cloudflare/terraform-provider-cloudflare/cmd/migrate/transformations"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/cmd/migrate/transformations"
 )
 
 // runYAMLTransformations runs the YAML-based transformations for config and state files
@@ -42,7 +42,7 @@ func runYAMLTransformations(configDir, stateFile, transformerDir string, dryRun 
 		defer os.RemoveAll(tempDir) // Clean up temp dir when done
 
 		// Download each config file from GitHub
-		baseURL := "https://raw.githubusercontent.com/cloudflare/terraform-provider-cloudflare/refs/heads/next/cmd/migrate/transformations/config/"
+		baseURL := "https://raw.githubusercontent.com/webwarrior-ws/terraform-provider-cloudflare/refs/heads/next/cmd/migrate/transformations/config/"
 
 		for _, t := range transformationConfigs {
 			url := fmt.Sprintf("%s/%s", baseURL, t.configFile)

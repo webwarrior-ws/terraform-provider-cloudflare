@@ -1,4 +1,4 @@
-module github.com/cloudflare/terraform-provider-cloudflare/cmd/migrate
+module github.com/webwarrior-ws/terraform-provider-cloudflare/cmd/migrate
 
 go 1.23.0
 

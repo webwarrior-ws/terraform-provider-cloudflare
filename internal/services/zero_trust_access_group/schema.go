@@ -5,7 +5,7 @@ package zero_trust_access_group
 import (
 	"context"
 
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/customvalidator"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/customvalidator"
 	"github.com/hashicorp/terraform-plugin-framework/schema/validator"
 
 	"github.com/hashicorp/terraform-plugin-framework/resource"

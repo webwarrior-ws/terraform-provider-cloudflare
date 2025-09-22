@@ -11,9 +11,9 @@ import (
 	"github.com/cloudflare/cloudflare-go/v6"
 	"github.com/cloudflare/cloudflare-go/v6/option"
 	"github.com/cloudflare/cloudflare-go/v6/web3"
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/apijson"
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/importpath"
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/logging"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/apijson"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/importpath"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/logging"
 	"github.com/hashicorp/terraform-plugin-framework/resource"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 )

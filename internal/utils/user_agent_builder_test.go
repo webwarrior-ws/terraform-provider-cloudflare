@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/cloudflare/cloudflare-go"
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/utils"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/utils"
 )
 
 func TestUserAgentBuilding(t *testing.T) {

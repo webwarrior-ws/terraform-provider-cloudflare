@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"github.com/cloudflare/terraform-provider-cloudflare/cmd/migrate/ast"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/cmd/migrate/ast"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclwrite"
 )

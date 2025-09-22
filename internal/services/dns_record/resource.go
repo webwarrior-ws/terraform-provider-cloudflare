@@ -12,9 +12,9 @@ import (
 	"github.com/cloudflare/cloudflare-go/v6"
 	"github.com/cloudflare/cloudflare-go/v6/dns"
 	"github.com/cloudflare/cloudflare-go/v6/option"
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/apijson"
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/importpath"
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/logging"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/apijson"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/importpath"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/logging"
 	"github.com/hashicorp/terraform-plugin-framework-timetypes/timetypes"
 	"github.com/hashicorp/terraform-plugin-framework/resource"
 	"github.com/hashicorp/terraform-plugin-framework/types"
@@ -390,7 +390,7 @@ func (r *DNSRecordResource) ModifyPlan(ctx context.Context, req resource.ModifyP
 		// Check settings changes - treat empty object as equivalent to null
 		planSettingsEmpty := plan.Settings.IsNull() || plan.Settings.IsUnknown()
 		stateSettingsEmpty := state.Settings.IsNull() || state.Settings.IsUnknown()
-		
+
 		// Check if plan settings is an empty object {}
 		if !plan.Settings.IsNull() && !plan.Settings.IsUnknown() {
 			var planSettingsData DNSRecordSettingsModel
@@ -404,8 +404,8 @@ func (r *DNSRecordResource) ModifyPlan(ctx context.Context, req resource.ModifyP
 				}
 			}
 		}
-		
-		// Only consider it a change if one is empty and the other is not, 
+
+		// Only consider it a change if one is empty and the other is not,
 		// or if both are non-empty and different
 		if !planSettingsEmpty && !stateSettingsEmpty {
 			hasChanges = hasChanges || !plan.Settings.Equal(state.Settings)

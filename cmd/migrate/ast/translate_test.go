@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cloudflare/terraform-provider-cloudflare/cmd/migrate/ast"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/cmd/migrate/ast"
 )
 
 func TestDynamicBody(t *testing.T) {

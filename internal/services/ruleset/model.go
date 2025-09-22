@@ -3,8 +3,8 @@
 package ruleset
 
 import (
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/apijsoncustom"
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/customfield"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/apijsoncustom"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/customfield"
 	"github.com/hashicorp/terraform-plugin-framework-timetypes/timetypes"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 )

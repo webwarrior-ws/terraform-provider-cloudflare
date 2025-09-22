@@ -4,7 +4,7 @@ package page_rule
 
 import (
 	"context"
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/customfield"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/customfield"
 	"github.com/hashicorp/terraform-plugin-framework-timetypes/timetypes"
 	"github.com/hashicorp/terraform-plugin-framework-validators/int64validator"
 	"github.com/hashicorp/terraform-plugin-framework-validators/stringvalidator"

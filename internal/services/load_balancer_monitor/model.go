@@ -3,7 +3,7 @@
 package load_balancer_monitor
 
 import (
-	"github.com/cloudflare/terraform-provider-cloudflare/internal/apijson"
+	"github.com/webwarrior-ws/terraform-provider-cloudflare/internal/apijson"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 )
 
